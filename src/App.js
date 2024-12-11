@@ -5,6 +5,8 @@ import CardGrid from "./CardGrid";
 import IndustryGrid from "./Industries";
 import PopularCourses from "./Courses";
 import CourseOptions from "./Courseoptions";
+import Call from "./Call";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <IndustryGrid/>
       <PopularCourses/>
       <CourseOptions/>
+      <Call/>
+      <Footer/>
     </div>
   );
 }
