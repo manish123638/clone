@@ -70,13 +70,13 @@ const courses = [
 const PopularCourses = () => {
   return (
     <div className="bg-white py-12 px-6">
-      {/* Title Section */}
+      
       <h2 className="text-2xl font-semibold text-blue-900 text-center mb-6">
         Popular Courses
       </h2>
       <div className="border-t-2 border-dotted border-blue-100 mb-6"></div>
 
-      {/* Course Cards Container */}
+     
       <div className="relative overflow-hidden">
         <div className="animate-scroll flex gap-6">
           {courses.map((course, index) => (
