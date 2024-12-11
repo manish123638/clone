@@ -5,8 +5,8 @@ const CardGrid = () => {
     {
       title: "Apprenticeship & Traineeships",
       subtitle: "User Choice Program",
-      backgroundImage: {backgroundImage}, // Background image
-      image: "C:/Users/Manish1/Desktop/Intern/clone3/clone/src/images/1st.png", // Side hero image
+      src: {backgroundImage}, 
+      image: "C:/Users/Manish1/Desktop/Intern/clone3/clone/src/images/1st.png", 
       button: "Find Out More",
     },
     {
